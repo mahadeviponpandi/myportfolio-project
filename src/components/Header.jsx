@@ -1,8 +1,6 @@
 import React from "react";
-import {useNavigate} from "react-router";
 
 function Header(){
-    var navigate=useNavigate();
     return(
         <div className="Nav">
             
@@ -14,10 +12,7 @@ function Header(){
                 <a href="/Skills/" >Skills</a>
                 <a href="/Project/" >Projects</a>
                 <a href="/Contact/" >Contact</a>
-
             </div>
-           
-            
         </div>
     
     )
